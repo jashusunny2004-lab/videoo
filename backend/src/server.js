@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 
 app.use(cors({
     origin: "*",
-    credentials: true, // allow frontend to send the cookies
+    // credentials: true, // allow frontend to send the cookies
 }));
 app.use(express.json());
 app.use(cookieParser());
